@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+a{
+    text-decoration: none;
+}
+#header h1{
+    font-style: unset;
+    font-size: 30px;
+    font-weight: bold;
+   color: #7C1645;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo a img{
+    width: 200px;
+}
+#header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    padding: 7px 10rem 7px 40rem;
+    justify-content: space-between;
+}
+.nav a{
+    font-weight: 700;
+    margin-left: 40px;
+    font-size: 1.2rem;
+    color: white;
+    transition: .5s;
+}
+.nav a:hover{
+    color: #7C1645;
+
+}
+.nav {
+    margin-right: 6rem;
+    margin-left: 40px;
+}
+.nav .button{
+background-color: white;
+color: black;
+padding: 1rem 2rem;
+border-radius: 20px;
+margin-left: 60px;
+transition: .5s;
+}
+.nav .button:hover{
+    background-color: #7C1645;
+    color: white;
+}
+#introduction{
+    display: flex;
+    padding: 200px 15rem 200px 50rem;
+    justify-content:space-between;
+}
+#introduction .text{
+    width: 70%;
+    
+}
+#introduction .text h1{
+    font-size: 3.3rem;
+    margin-bottom: 20px;
+    color: white;
+}
+#introduction .text p{
+    margin-bottom: 40px;
+    color: white;
+}
+.text a{
+    padding: 0.9rem 2rem;
+    background-color: white ;
+    border-radius: 20px;
+    color: black;
+    transition: .5s;
+}
+#introduction{
+    background-image: url(https://www.datocms-assets.com/33016/1658412338-banner-website-sandeman-50-years.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.text a:hover{
+    background-color: #7C1645;
+    color: white;
+}
+.photos{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+    animation: wine 60s linear infinite;
+    width: 100%;
+    padding: 98px;
+    margin-top: 31px;
+    background-image: url( https://media.istockphoto.com/vectors/film-reel-illustration-isolated-vector-illustration-vector-id539260869?k=20&m=539260869&s=612x612&w=0&h=88q2M13zvVMzx5l5prR4q4wdAthOs-BzLJ_Duf2QUOs=);
+    background-repeat: repeat;
+}
+.inside{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: absolute;
+    top: 22%;
+}
+.box{
+    width: 11%;
+    margin-left: -29%;
+}
+.box img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+@keyframes wine{
+    from{
+        right: 0%;
+
+    }
+    to{
+        right: 100%;
+    }
+}
